@@ -3,6 +3,18 @@ class ListNode {
     this.value = x;
     this.next = null;
   }
+
+  setNext(nextItem) {
+    this.next = nextItem;
+  }
+
+  getValue() {
+    return this.value;
+  }
+
+  getNext() {
+    return this.next;
+  }
 }
 
 module.exports = {
