@@ -43,7 +43,6 @@ function removeKFromList(l, k) {
     if (current.value !== k) {
       filteredValues.push(current.value);
     }
-
     current = current.getNext();
   }
 
